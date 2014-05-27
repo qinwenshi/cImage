@@ -420,11 +420,13 @@ class ListImage(AbstractImage):
 # Example program  Read in an image and calulate the negative.
 if __name__ == '__main__':
     win = ImageWin("My Window",480,640)
-    oImage = FileImage('lcastle.jpg')
+    oImage = FileImage('lcastle.gif')
     print(oImage.getWidth(), oImage.getHeight())
     oImage.draw(win)
     myImage = oImage.copy()
 
+    
+    
     for row in range(myImage.getHeight()):
         for col in range(myImage.getWidth()):
              v = myImage.getPixel(col,row)

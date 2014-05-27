@@ -23,4 +23,4 @@ def makeGrayScale(imageFile):
     newim.draw(myimagewindow)
     myimagewindow.exitOnClick()
 
-makeGrayScale('lcastle.gif')
+makeGrayScale('cat.gif')
